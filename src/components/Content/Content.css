@@ -1,0 +1,22 @@
+.content {
+    display: flex;
+}
+
+.left {
+    flex-grow: 2;
+    background-color: #152259;
+}
+
+.left-item {
+
+}
+
+.left-item > ul {
+    list-style: none;
+    text-align: left;
+}
+
+.right {
+    flex-grow: 8;
+}
+

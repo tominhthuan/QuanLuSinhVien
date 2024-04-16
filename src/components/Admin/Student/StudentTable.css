@@ -1,0 +1,32 @@
+/* Trong file App.css hoặc một file CSS tương tự */
+
+/* Kiểu cho bảng */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Kiểu cho header của bảng */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  /* Kiểu cho các cột trong header */
+  th {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Kiểu cho các dòng trong bảng */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Kiểu cho nội dung trong các ô */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+  }
+  
