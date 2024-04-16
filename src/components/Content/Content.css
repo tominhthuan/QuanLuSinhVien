@@ -3,8 +3,31 @@
 }
 
 .left {
-    flex-grow: 2;
+    flex-grow: 1;
     background-color: #152259;
+}
+
+.left-logo {
+    padding: 10px 20px 66px 20px;
+    margin: 20px;
+    border-bottom: 1px solid #f6f6f6;
+}
+
+.logo {
+    display: flex;
+    padding: 5px 11px;
+    flex-direction: column;
+    width: 65px;
+    height: 65px;
+    margin: 20px auto;
+}
+.left-logo > a {
+font-size: 16px;
+font-weight: 600;
+line-height: 31.36px;
+padding: 10px 20px;
+color: #ffffff;
+text-decoration: none;
 }
 
 .left-item {
@@ -16,7 +39,100 @@
     text-align: left;
 }
 
+.left-a {
+    font-size: 16px;
+    line-height: 17.36px;
+    text-align: left;
+    text-decoration: none;
+    padding: 10px;
+     color: #fff;
+}
+
+.left-a > span {
+    padding-left: 8px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left-b{
+    margin-top: 100px;
+}
 .right {
     flex-grow: 8;
 }
 
+.right-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#FCFAFA;
+}
+.right-header > p{
+    flex: 8;
+    margin: 46px;
+}
+
+.button-pass{
+    flex: 1;
+    padding: 7px 1px;
+    border: 1px solid #152259;
+    border-radius: 13px;
+    background: #509CDB;
+    font-size: 14px;
+    margin-right: 65px;
+    color: #f6f6f6;
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.right > h1 {
+    font-family: Kumbh Sans;
+    font-size: 46px;
+    font-weight: 600;
+    line-height: 44.65px;
+    text-align: center;
+    margin-top: 83px;
+    color: #4f4f4f;
+}
+
+.right-content{
+    margin-left: 290px;
+    text-align: center;
+    padding: 10px;
+}
+
+.right-content > ul {
+    text-align: left;
+}
+
+.right-content > ul > li {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+.icon-add {
+    background: #EFF3FA;
+    border-radius: 15px;
+    padding: 8px;
+}
+
+.font-text {
+    font-family: Kumbh Sans;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 29.77px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #4f4f4f;
+}
+
+.right-content > ul  > p{
+    font-family: Kumbh Sans;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.63px;
+    text-align: left;
+    margin-left: 50px;
+    margin-bottom: 35px;
+}
